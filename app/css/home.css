@@ -1,0 +1,86 @@
+.hero-block {
+  background: url("../img/home/windmill.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  padding-bottom: 180px;
+  width: 100vw; }
+  .hero-block .hero-inner {
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+    position: relative;
+    top: 192px; }
+    .hero-block .hero-inner .hero-headline {
+      color: white;
+      font-size: 66px;
+      font-weight: 300;
+      line-height: 77px;
+      text-align: center; }
+      .hero-block .hero-inner .hero-headline #bold {
+        font-weight: 900; }
+      .hero-block .hero-inner .hero-headline #italic {
+        font-family: 'Stix-BoldItalic';
+        font-weight: 600;
+        font-style: italic; }
+    .hero-block .hero-inner .hero-divider {
+      background: #AAAAAA;
+      display: block;
+      height: 1px;
+      margin: 15px auto 38px auto;
+      position: relative;
+      width: 717px; }
+    .hero-block .hero-inner .hero-description {
+      color: #B9B9B9;
+      font-family: 'Stix-Italic';
+      font-style: italic;
+      font-size: 28px;
+      text-align: center; }
+    .hero-block .hero-inner .hero-button-link {
+      display: inline-block;
+      left: 50%;
+      position: relative;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+      .hero-block .hero-inner .hero-button-link #hero-button {
+        background: none;
+        border: 4px solid #FFC600;
+        cursor: pointer;
+        height: 65px;
+        margin-top: 90px;
+        margin-bottom: 180px;
+        width: 375px; }
+        .hero-block .hero-inner .hero-button-link #hero-button:hover {
+          background: #FFC600; }
+          .hero-block .hero-inner .hero-button-link #hero-button:hover .button-text {
+            color: white; }
+        .hero-block .hero-inner .hero-button-link #hero-button .button-text {
+          color: #FFC600;
+          font-size: 20px;
+          font-weight: 900; }
+
+.featured-block {
+  background: #CCCCCC;
+  display: block;
+  padding: 64px; }
+  .featured-block .featured-description {
+    color: #555555;
+    display: block;
+    font-family: "Stix-Italic";
+    font-size: 28px;
+    text-align: center; }
+  .featured-block .featured-list {
+    display: block;
+    margin: 45px auto 10px auto;
+    max-width: 1196px; }
+    .featured-block .featured-list .featured-item {
+      background: gray;
+      display: inline-block;
+      height: 30px;
+      list-style: none;
+      margin: 0 45px;
+      width: 106px; }

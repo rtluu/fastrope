@@ -1,0 +1,39 @@
+.nav {
+  background: white;
+  padding: 14px 30px;
+  position: relative;
+  width: 100%; }
+  .nav#home {
+    background: transparent;
+    padding: 30px 45px;
+    position: absolute; }
+    .nav#home #fr-logo {
+      background: url("../img/logo/fr-logo-white.svg"); }
+    .nav#home .right {
+      right: 45px;
+      top: 44px; }
+      .nav#home .right .page-link {
+        color: white; }
+  .nav .left {
+    display: inline-block; }
+    .nav .left .home-link #fr-logo {
+      background: url("../img/logo/fr-logo-yellow.svg");
+      background-size: 48px 54px;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: inline-block;
+      height: 54px;
+      width: 48px; }
+  .nav .right {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 28px; }
+    .nav .right .page-link {
+      color: #4C4C4C;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0 10px;
+      padding: 10px;
+      font-size: 18px; }
+      .nav .right .page-link:hover {
+        opacity: 0.7; }

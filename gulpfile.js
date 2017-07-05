@@ -99,7 +99,7 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('imagemin', () =>
-    gulp.src('app/img/*')
+    gulp.src('app/img/**/*')
         .pipe(imagemin())
         .pipe(gulp.dest('dist/img'))
 );

@@ -2,5 +2,40 @@
 {% extends "layout.nunjucks" %}
 
 {% block content %}
-<h1>This is the index page</h1>
+
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+  {% include "partials/nav-home.nunjucks" %}
+
+  <div class="hero-block">
+    <div class="hero-inner">
+      <h1 class="hero-headline">We are <span id="bold">building</span> the world we <span id="italic">want</span> to live in.</h1>
+      <div class="hero-divider"></div>
+      <h4 class="hero-description">Fastrope is an elite team of entrepreneurial builders who partner with world-class innovators to make crazy ideas real.</h4>
+      <a class="hero-button-link" href="/contact.html">
+        <button id="hero-button">
+          <h5 class="button-text">LET'S BUILD SOMETHING AMAZING</h5>
+        </button>
+      </a>
+    </div>
+  </div>
+
+  <div class="featured-block">
+    <h4 class="featured-description">Our work has been featured in:</h4>
+    <ul class="featured-list">
+      <li class="featured-item"></li>
+      <li class="featured-item"></li>
+      <li class="featured-item"></li>
+      <li class="featured-item"></li>
+      <li class="featured-item"></li>
+      <li class="featured-item"></li>
+    </ul>
+  </div>
+
+  <div class=""
+
+
+
 {% endblock %}
